@@ -1,0 +1,256 @@
+/*****************************************************************************/
+/*
+/* Common
+/*
+/*****************************************************************************/
+
+/* Global Reset */
+* {
+   margin: 0;
+   padding: 0;
+}
+
+html, body { height: 100%; }
+
+body {
+   background-color: #FFF;
+   font-family: Helvetica, Arial, sans-serif;
+   font-size: 18px;
+   color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 { 
+   font-size: 22px; 
+   font-weight: bold;
+}
+
+h2 a,
+h2 a:visited {
+   color: #333;
+}
+
+h2 a:hover {
+   color: #669900;
+}
+
+h1 { 
+   font-size: 36px;
+   margin-bottom: 1em; 
+   line-height: 1.2;
+}
+
+h2 {
+   font-size: 28px;
+   line-height: 1.1;
+}
+
+p { margin: 1em 0; }
+
+a, a:visited {
+   text-decoration: none;
+   color: #669900;
+}
+
+a:hover {
+  color: #99cc00; 
+}
+
+
+/*****************************************************************************/
+/*
+/* Site
+/*
+/*****************************************************************************/
+
+#site {
+   line-height: 1.5em;
+   width: 100%;
+}
+
+#side-bar {
+   position: fixed;
+   box-sizing: border-box;
+   width: 230px;
+   height: 100%;
+   padding: 30px 40px;
+   border-right: 1px solid #ddd;
+   background-color: #f3f3f3;
+}
+
+#side-bar a,
+#side-bar a:visited {
+   text-decoration: none;
+   color: #333;
+   font-size: 20px;
+   font-weight: bold;
+   line-height: 2.2;
+}
+
+#side-bar a:hover {
+   color: #669900; 
+}
+
+#side-bar .side-nav {
+   margin-top: 40px;
+}
+
+#side-bar ul li {
+   list-style: none;
+}
+
+#content {
+   padding: 30px 100px;
+   margin-left: 230px;
+}
+
+#footer {
+   font-size: 14px;
+   color: #666;
+   margin-top: 60px;
+   overflow: hidden;   
+   line-height: 0.8;
+   text-align: center;
+}
+
+#notfound {
+   text-align: center;
+   padding: 200px 0 100px 0;
+}
+
+.meta {
+   color: #666;
+}
+
+.dark-green {
+   color: #669900;
+}
+
+.light-green {
+   color: #99cc00;
+}
+
+.float-right {
+   float: right;
+   margin: 0 0 20px 20px;
+}
+
+.float-left {
+   float: left;
+   margin: 0 20px 20px 0;
+}
+
+/*****************************************************************************/
+/*
+/* Home (listing of posts)
+/*
+/*****************************************************************************/
+#home .post {
+   border-top: 1px solid #ddd;
+   padding-top: 60px;
+   padding-bottom: 20px;
+}
+
+#home .post:first-child {
+   border-top: 0;
+   padding-top: 0;
+}
+
+/*****************************************************************************/
+/*
+/* App and games listing page
+/*
+/*****************************************************************************/
+/*#app-list {
+   display: table;
+   table-layout: fixed;
+}*/
+
+.app {
+   /*display: table-row;*/
+   margin-bottom: 80px;
+}
+
+.app div {
+   display: inline-block;
+   /*vertical-align: baseline;*/
+}
+
+
+/*****************************************************************************/
+/*
+/* App detail pages (FAQ stuff etc)
+/*
+/*****************************************************************************/
+
+#logo-playstore {
+   float: right;
+   padding: 0 0 20px 20px;
+   width: 170px;
+}
+
+
+.faq-list {
+   padding: 20px 30px;
+}
+
+.faq-list > li {
+   padding-bottom: 16px;
+}
+
+.faq-list > li ul {
+   padding-left: 50px;
+}
+
+.question {
+   font-weight: bold;
+   color: #669900;
+}
+
+.question:hover {
+   color: #99cc00;
+   cursor: pointer;
+}
+
+.answer {
+   display: none;
+   font-size: 16px;
+}
+
+
+/*****************************************************************************/
+/*
+/* Posts
+/*
+/*****************************************************************************/
+
+/* standard */
+.post pre {
+   border: 1px solid #ddd;
+   background-color: #eef;
+   padding: 0 .4em;
+}
+
+.post ul, .post ol {
+   margin-left: 1.35em;
+}
+
+.post code {
+   border: 1px solid #ddd;
+   background-color: #eef;
+   padding: 0 .2em;
+}
+
+.post pre code {
+   border: none;
+}
+
+/* terminal */
+.post pre.terminal {
+   border: 1px solid #000;
+   background-color: #333;
+   color: #FFF;
+}
+
+.post pre.terminal code {
+   background-color: #333;
+}

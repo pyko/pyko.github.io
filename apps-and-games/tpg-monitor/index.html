@@ -1,0 +1,98 @@
+---
+layout: default
+title: tpg monitor | random android stuff
+---
+
+<div id="home">
+   <div id="logo-playstore">
+      <img src="/images/apps/tpg/tpgmonitor-logo.png"/ class="float-right">
+      <a href="https://play.google.com/store/apps/details?id=com.psychopyko.dx3.tpgmonitor" target="_blank">
+         <img alt="Get it on Google Play" src="https://developer.android.com/images/brand/en_generic_rgb_wo_60.png"/  class="float-right">
+      </a>
+   </div>
+
+   <h1>TPG usage monitor</h1>
+
+   <p>
+      This is my first Android application :) A simple, easy to use app that shows your <a title="TPG Mobile" href="http://www.tpg.com.au/mobile/plans.html" target="_blank">TPG mobile</a> usage. Get it for free at the <a title="TPG Monitor at Android Market" href="https://play.google.com/store/apps/details?id=com.psychopyko.dx3.tpgmonitor" target="_blank">Android Play Store</a>! If you like it, please rate and review on the market :)
+   </p>
+
+
+   <p>If you're feeling generous and/or like to feel warm and fuzzy inside, it would be greatly appreciated if you could <a title="Support" href="http://dx3.psychopyko.com/support/" target="_blank">Support</a> me :)</p>
+
+   <h2>Quick FAQ</h2>
+   <ol class="faq-list">
+      <li>
+         <div class="question">What plans does TPG monitor support?</div>
+         <div class="answer">The TPG monitor should support all standalone TPG mobile plans</div>
+      </li>
+      <li>
+         <div class="question">How do I read the usage screen?</div>
+         <div class="answer">
+            The bars give you a quick visual representation of your current mobile usage. 
+
+            <ul>
+               <li>Each bar is <strong>relative</strong> to the usage limit it represents</li>
+               <li>The <strong>dull yellow-grey</strong> colour shows the number of days that have passed in your current usage period</li>
+               <li>The <strong>normal yellow</strong> colour shows the amount you have used</li>
+               <li>The <strong>orange/red</strong> colour indicates that you have exceeded the "pro rata" of your usage (based on the number of days)</li>
+               <li><strong>Remaining Balance</strong> shows the amount you have remaining for each of the limits appropriate to your account.</li>
+               <li><strong>Other</strong> sums up the charges in the ‘Excess Charges’ column that you see when you view your TPG mobile usage online</li>
+            </ul>
+            <strong>Note: All the data displayed by the TPG Monitor is  from TPG. So it is likely to be ~2 days behind</strong>
+         </div>
+      </li>
+      <li>
+         <div class="question">Can I auto-jump to the usage screen after log in?</div>
+         <div class="answer">Yes. Long press on the mobile you want to use as the default and select “Make Primary Plan”</div>
+      </li>
+      <li>
+         <div class="question">How can I log out?</div>
+         <div class="answer">Long press on your account name and you will have the option to log out. Here you can also clear your primary plan or clear <strong>all</strong> data associated with the app</div>
+      </li>
+      <li>
+         <div class="question">How to I get back to the options screen from the usage screen?</div>
+         <div class="answer">Press the key icon on the top bar</div>
+      </li>
+      <li>
+         <div class="question">I have a new mobile, but can't see it in the list?</div>
+         <div class="answer">Make sure the plan is listed as 'Active' on the TPG website. In the options screen, hit the refresh icon to update your available plans. Note: You may have to wait a few days for the plan to become active and have usage information</div>
+      </li>
+      <li>
+         <div class="question">Where do you get the usage data from?</div>
+         <div class="answer">I get the usage data from TPG’s usage site – so unfortunately the stats will be ~2 days old (whatever you see on TPG’s website, is what will be displayed by the app)</div>
+      </li>
+      <li>
+         <div class="question">Why does the usage screen say that there is no usage found for the period?</div>
+         <div class="answer">This will generally happen at the start of the period, because it is possible that you haven’t used anything  for the period, or if you have, TPG can be lagging behind with their reporting (usually ~2 days)</div>
+      </li>
+      <li>
+         <div class="question">What are you using to collect bug reports?</div>
+         <div class="answer">I am using ACRA (Application Crash Report for Android) to collect bug reports</div>
+      </li>
+      <li>
+         <div class="question">What do you need the permissions for?</div>
+         <div class="answer">
+            <strong>Network communication</strong> - full network access<br/>
+            Internet is needed to access TPG website to get your usage data<br/><br/>
+            <strong>Affects battery</strong> - prevent device from sleeping<br/>
+            Required for auto-sync - if phone is sleeping when the app has been asked to sync, it needs to be able to ‘wake it up’ to perform the sync<br/><br/>
+            <strong>Your applications information</strong> - run at startup<br/>
+            Required for auto-sync - when your phone restarts, it will notify the app when it is ready, so auto-sync can be re-enabled<br/><br/>
+            <strong>Phone calls</strong> - read phone status and identity<br/>
+            I honestly do not know what this is listed here. Will investigate and should be able to remove it. It is likely a remenant of old code whilst I was still learing the ropes of Android development
+         <div>
+      </li>
+      <li>
+         <div class="question">I’ve found a bug! Can you add this cool feature?</div>
+         <div class="answer">If you’ve got feedback/suggestions please send them to: <span class="dark-green">dx3.feedback [at] psychopyko (dot) com</span>.  Can’t promise that I’ll be able to respond/implement everything that is suggested, but will try my best :)</div>
+      </li>
+      <li>
+         <div class="question">How can I support the TPG Monitor app?</div>
+         <div class="answer">Yay! Thanks for asking :) There is a "Support Me" link in the Advanced Options screen. Alternatively you can head to the <a href="/about">About page</a> to support me/the TPG Monitor app. At the moment, I’ve only implemented PayPal support.</div>
+      </li>
+   </ol>
+
+</div>
+<script type="text/javascript" src="/js/jquery-2.0.3.min.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
