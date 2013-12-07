@@ -355,4 +355,8 @@ img {
    #logo-playstore .play-logo {
       margin: 0;
    }
+
+   #notfound {
+      padding: 60px 0 50px 0;
+   }
 }
