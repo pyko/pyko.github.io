@@ -133,6 +133,14 @@ img {
    padding: 200px 0 100px 0;
 }
 
+blockquote {
+   padding: 5px 20px;
+   margin: 0 20px;
+   line-height: 1.2em;
+   border: 1px solid #99cc00;
+   border-left: 10px solid #669900;
+}
+
 .meta {
    color: #666;
 }
