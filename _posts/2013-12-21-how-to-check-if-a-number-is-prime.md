@@ -2,6 +2,7 @@
 layout: post
 title:  "How to check if a number is prime?"
 date:   2013-12-21
+tags: dev
 ---
 
 For my first game, Mr Tiddles, I decided to add achievements via [Google Game Services](https://developers.google.com/games/services/). One of these achievements is "Finish game with a prime score".
