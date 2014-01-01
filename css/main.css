@@ -42,9 +42,14 @@ h1 {
 h2 {
    font-size: 28px;
    line-height: 1.1;
+   margin-bottom: 0.75em;
 }
 
 p { margin: 1em 0; }
+
+h3 ~ p {
+   margin-top: 0;
+}
 
 a, a:visited {
    text-decoration: none;
@@ -197,6 +202,33 @@ blockquote {
 .app div {
    display: inline-block;
    /*vertical-align: baseline;*/
+}
+
+.app-entry {
+   table-layout: fixed;
+}
+
+.row {
+   display: table-row;
+}
+
+.cell {
+   display: table-cell;
+   padding: 5px;
+   vertical-align: top;
+   /*border: 1px solid #000;*/
+}
+
+
+.app-icon {
+   width: 64px;
+   padding-top: 10px;
+}
+
+.app-playstore {
+   padding-top: 10px;
+   padding-left: 10px;
+   width: 130px;
 }
 
 
