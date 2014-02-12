@@ -168,6 +168,39 @@ blockquote {
    margin: 0 20px 20px 0;
 }
 
+
+/* Tables */
+table {
+   border-spacing: 0;
+   width: 60%;
+}
+
+table th {
+   border-top: 1px solid #999;
+   background: #eee;
+   padding: 5px 12px;
+}
+
+table td {
+   border-top: 1px solid #999;
+   padding: 3px 12px;
+}
+
+/* td default is left, so no need for extra style */
+table th.align-left {
+   text-align: left;
+}
+
+/* th default is center, so no need for extra style */
+table td.align-center {
+   text-align: center;
+}
+
+table td.align-right,
+table th.align-right {
+   text-align: right;
+}
+
 /*****************************************************************************/
 /*
 /* Home (listing of posts)
