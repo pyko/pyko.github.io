@@ -2,7 +2,7 @@
 layout: post
 title:  "Android game dev income stats (Jan 2014)"
 date:   2014-02-12
-tags: android game mrtiddles
+tags: android game mrtiddles income business
 ---
 
 Roughly 6 weeks ago, my first Android game [Mr. Tiddles](https://play.google.com/store/apps/details?id=com.psychopyko.dx3.mrtiddles) was released into the wild. So now I think it is time to have a look at some stats!
