@@ -25,9 +25,10 @@ The game still needs quite a bit of polish. The first few things that came to mi
 
 * Some animations are really sudden
 * Not completely satisfied with the colours
-* Styles off in Firefox (not tested in IE)
+* Symbols of sorts so there is more than one way to tell the difference between tiles
 * Score is currently linear - should give more reward for bigger combinations
 * Clean up the code - most of it was written with 'just get something working'
+* Styles off in Firefox (not tested in IE)
 * Better name? Naming is hard!
 
 Overall, quite happy with the result :)
