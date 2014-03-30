@@ -34,3 +34,12 @@ The game still needs quite a bit of polish. The first few things that came to mi
 Overall, quite happy with the result :)
 
 Head over to [http://dx3.psychopyko.com/connect-three/](http://dx3.psychopyko.com/connect-three/) to give it a go!
+
+---
+***Edit:*** *Not long after this blog, I was pointed to [this blog post](http://asherv.com/threes/threemails/) by [Asher](http://ashervollmer.tumblr.com/home), one of the creators of [Threes](http://threesgame.com/).*
+
+*The blog post is essentially about all the thought and hardwork they took to come up with the final product and the various clones/rip-offs of Threes (which includes 2048).*
+
+*Making Connect Three was probably more a learning process than anything (like most of my games actually), though I purposefully avoided numbers and merging to try and be different.*
+
+*Lastly, I have said it is a 2048 inspired game simply because I haven't actually played Threes. Purchased and installed on my phone, but the game fails to load... time for a new phone!*
