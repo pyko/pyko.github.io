@@ -146,6 +146,10 @@ blockquote {
    border-left: 10px solid #669900;
 }
 
+a img {
+   border: 0;
+}
+
 .meta {
    color: #666;
 }
