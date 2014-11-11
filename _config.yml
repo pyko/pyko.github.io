@@ -2,6 +2,6 @@ name: random android stuff - dx3 studios
 timezone: Australia/Sydney
 
 markdown: redcarpet
-pygments: true
+highlighter: pygments
 
 permalink: pretty
